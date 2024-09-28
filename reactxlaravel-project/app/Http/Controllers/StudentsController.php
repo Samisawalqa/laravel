@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\product;
+use App\Models\students;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class productController extends Controller
+class StudentsController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -35,7 +35,7 @@ class productController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(product $product)
+    public function show(students $students)
     {
         //
     }
@@ -43,7 +43,7 @@ class productController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(product $product)
+    public function edit(students $students)
     {
         //
     }
@@ -51,7 +51,7 @@ class productController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, product $product)
+    public function update(Request $request, students $students)
     {
         //
     }
@@ -59,7 +59,7 @@ class productController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(product $product)
+    public function destroy(students $students)
     {
         //
     }
